@@ -22,9 +22,9 @@ void bubblesort(int A[10],int n)
 int main()
 {
     int A[10],n,i;
-    printf("\nReal array size");
+    printf("\nRead array size");
     scanf("%d",&n);
-    printf("\nReal array elements\n");
+    printf("\nRead array elements\n");
     for(i=0;i<n;i++)
         scanf("%d",&A[i]);
     bubblesort(A,n);
@@ -34,3 +34,4 @@ int main()
     printf("\nTotal number of comparision %d",count);
     return 0;
 }
+
